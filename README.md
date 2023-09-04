@@ -9,8 +9,8 @@
 
   - 📚 Cursando Análise e Desenvolvimento de Sistemas 2° sem.
   - 💻 Estudando Kotlin
-  - 😄 Interaja a vontade!
   - 👨🏻‍🎓 Sempre em busca de aprender
+  - 😄 Interaja a vontade!
 
 
 ## Tecnologias que ja estudei:
