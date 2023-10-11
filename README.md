@@ -11,6 +11,10 @@
   - 💻 Estudando Backend em Java Spring para APIs REST
   - 👨🏻‍🎓 Sempre em busca de aprender
 
+## Detalhes-
+  - Atualmente estou focado em aprender tudo sobre o Framework Spring, ja sou capaz de criar APIs REST que possua endpoints com tratamento de exceções personalizadas e codigos de erros mais acertivos.
+  - Pretendo melhorar as minhas práticas na criação e organização destas APIs e buscar implementar um padrão de projeto para que meus projetos sejam mais consisos, versionaveis e padronizados.
+  - Logo, iniciarei meus estudos na parte de segurança do Spring, com Spring Security, de forma a buscar maior segurança de minhas APIs contra as vulnerabilidades mais famosas como as de Quebra de Controle de Acesso, Cross Site Request Forgery(CSRF), entre outras..
 
 ## Tecnologias que ja estudei:
 <div style="display: inline-block"><br>
