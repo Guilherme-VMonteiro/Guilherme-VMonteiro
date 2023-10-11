@@ -8,9 +8,8 @@
 ## 
 
   - 📚 Cursando Análise e Desenvolvimento de Sistemas 2° sem.
-  - 💻 Estudando Backend Java Spring
+  - 💻 Estudando Backend em Java Spring para APIs REST
   - 👨🏻‍🎓 Sempre em busca de aprender
-  - 😄 Interaja a vontade!
 
 
 ## Tecnologias que ja estudei:
