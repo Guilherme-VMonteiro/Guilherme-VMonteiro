@@ -3,13 +3,39 @@
 @Table(name = "about_me") 
 public class AboutMe {
 
-  private String name = "Guilherme Monteiro"
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
-  @ColumnDefault("Full Stack")
-  private String area = "QA"
+    @Column(name = "name", nullable = false)
+    private String name = "Guilherme Monteiro";
 
-  private List<String> skills = Arrays.asList("Angular", "Spring", "Cypress", "WebDriverIO");
+    @Column(name = "role")
+    @ColumnDefault("'Software Architect'")
+    private String role = "Software Developer";
+
+    @ElementCollection
+    private List<String> skills = Arrays.asList(
+        "Spring Boot", "Angular", "Electron", "Docker", "Kotlin",
+        "Microservices", "CI/CD", "Cloud Architecture"
+    );
+
+    @OneToMany
+    private List<Technology> currentlyLearning = Arrays.asList(
+        new Technology("Kotlin"), 
+        new Technology("Terraform")
+    );
+
+    public void dailyRoutine() {
+        while (true) {
+            code();
+            debug();
+            optimizeArchitecture();
+            learnSomethingNew();
+        }
+    }
 }
+
 ```
 
 <p align="center">
